@@ -47,6 +47,7 @@ Request Body:
 json
 
 {
+
     "type": "club house",
     
     "date": "2024-05-15",
