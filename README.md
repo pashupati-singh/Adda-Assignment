@@ -11,14 +11,18 @@ JSON (for local storage)
 ## Folder Structure
 
 apartment-booking-api/
+
 │
 ├── controllers/
+
 │   └── bookingController.js
 │
 ├── routes/
+
 │   └── bookingRoutes.js
 │
 ├── bookings.json
+
 │
 └── index.js
 
@@ -44,9 +48,13 @@ json
 
 {
     "type": "club house",
+    
     "date": "2024-05-15",
+    
     "startTime": 12,
+    
     "endTime": 15
+    
 }
 
 Response:
@@ -69,17 +77,28 @@ json
 
 [
     {
-        "type": "clubhouse",
+    
+        "type": "club house",
+        
         "date": "2024-05-15",
+        
         "startTime": 12,
+        
         "endTime": 15,
+        
         "price": 300
+        
     },
+    
     {
         "type": "tennis court",
+        
         "date": "2024-05-16",
+
         "startTime": 14,
+        
         "endTime": 16,
+        
         "price": 100
     }
 ]
@@ -87,7 +106,7 @@ json
 Usage
 Clone the repository:
 
-git clone https://github.com/yourusername/apartment-booking-api.git
+git clone https://github.com/pashupati-singh/Adda-Assignment.git
 
 Install dependencies:
 
@@ -104,9 +123,13 @@ node index.js or npm run server (Nodemon)
 To create a new booking for the club house on May 15, 2024, from 12 PM to 3 PM:
 
 '{
+
     "type": "club house",
+    
     "date": "2024-05-15",
+    
     "startTime": 12,
+    
     "endTime": 15
 }' 
 
